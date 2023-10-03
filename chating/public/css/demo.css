@@ -1,0 +1,259 @@
+/* 顶部导航样式 */
+#header {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  height: 80px;
+  background: #1253A4;
+  overflow: hidden;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding-right:40px;
+  padding-left:40px;
+}
+
+#wiki {
+    font-size:60px;
+    font: small-caps bold 40px/2 sans-serif;
+    font-family: "Gill Sans", sans-serif;
+    font-style: italic;
+    color:#F26964;
+    align-items:center;
+}
+a:hover{
+  color:#ffd464;
+  }
+a:link{
+  color:#F4F4F2;
+}
+
+a:visited{
+color:#f4f4f2;
+}
+
+span {
+  font-weight: bold;
+  color:#F4F4F2;
+  font-family: "Gill Sans", sans-serif;
+  font-style: bold;
+}
+
+#logo {
+    height:50px;
+    width:50px;
+    padding-right:20px;
+    align-items:center;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.container{
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  height: 64px;
+  overflow: hidden;
+  display:flex;
+  align-items:center;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+
+  margin:24px;
+
+  flex-flow: row wrap;
+
+  justify-content: space-around;
+
+
+  min-height:700px;
+  max-width:1500px;
+  /* width:500px; */
+  /* height:500px; */
+
+  padding-left: 48px;
+  padding-right: 48px;
+  position: relative;
+  border-radius: 32px;
+
+  background: #ffd464;
+  padding: 0px 24px;
+  box-sizing: border-box;
+}
+
+
+
+.item{
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.h {
+    font-size:60px;
+    color:#1253A4;
+    font-family: "Gill Sans", sans-serif;
+    font-style:oblique;
+    font-weight: bold;
+
+}
+/* 按钮的语句 */
+.btn{
+    color:#F4F4F2;
+    font-size:30px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    height:50px;
+    width:250px;
+    background-color:#30302f;
+    border-radius: 32px;
+    font-style:oblique;
+}
+/* 按钮的语句 */
+.btn:hover{
+  background: transparent;
+  color: #F26964;
+
+}
+
+.footer{
+    margin-top: 15vw;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    background: #30302f;
+    text-align: center;
+    font-size: 18px;
+    /* margin-top: 4em; */
+    border-top: solid 0.7rem #ffd464;
+    padding-bottom: 3rem;
+}
+
+.footer .inner>div{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.footer>.inner>div>div.brand img{
+  margin-top: -10%;
+  width: 50%;
+  max-width: 100px;
+  min-width:24%;
+}
+
+
+
+.footer .inner>div .brand .copyright {
+  position: absolute;
+  bottom: 2.2rem;
+  color:#F4F4F2;
+  align-items: center;
+  margin-left: 50px;;
+}
+
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2{
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  height: 64px;
+  overflow: hidden;
+  display:flex;
+  flex-direction:column;
+
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+
+  margin:24px;
+
+  flex-flow: row wrap;
+
+  justify-content: space-around;
+
+
+  min-height:600px;
+  max-width:1500px;
+  /* width:500px; */
+  /* height:500px; */
+
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  border-radius: 32px;
+
+  background: #f4f4f2;
+  border-color:#ffd464;
+  border-width:30px;
+
+
+
+}
+
+
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+/*make the active user text inherit style from container*/
+
+.inbox__people{
+    color: white;
+    padding: 16px;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
+

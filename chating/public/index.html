@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/demo.css">
+    </head>
+    <body>
+        <!-- 顶部导航 -->
+        <div id="header">
+            <div id="wiki">
+                <p>Wiki</p>
+            </div>
+            <p id="gang"><nav>
+                <span><a href = "index.html">home</a></span>
+                <span>|</span>
+                <span><a href = "about.html">about</a></span>
+            </nav></p>
+            <div id="logo">
+                <img src="assets/diqiu2.png" alt="logo">
+            </div>
+        </div>
+        <!-- 主体部分 -->
+        <div class="container">
+                <div class="item">
+                    <img src="assets/22.png" alt="image">
+                </div>
+                <div class="item">
+                    <p class="h">
+                        Find friends who
+                        <br>
+                        share your intrests!
+                        <br>
+                        <button class="btn" onclick="load()"> C h a t   ~ now !</button>
+                    </p>
+                    <!-- <p class="h">
+                        Find friends who
+                     </p>
+                    <p class="h">
+                       share your intrests!
+                    </p> -->
+                    <!-- <button class="btn" onclick="load()"> C h a t   ~ now !</button> -->
+                </div>
+        </div>
+
+        <footer class="footer">
+            <div class="inner">
+                <div>
+                    <div class="brand">
+                        <img src="assets/diqiu3.png"
+                    </div>
+                    <div class="copyright">
+                        <p>XXXXXXX</p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <!-- 按钮的跳转 -->
+        <script>
+            function load()
+            {
+                window.open('chat.html','_blank')
+            }
+        </script>
+
+        <script src="js/client.js" async defer></script>
+
+        
+    </body>
+</html>
