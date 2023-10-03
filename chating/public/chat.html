@@ -1,4 +1,4 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,20 +10,22 @@
     <li class="chat page">
       <div class="sidenav" style="padding-left:50px;">
         <div class="inbox__people">
-            <h4>Active users</h4>
-          </div>
-
+          <h4>Active users</h4>
+        </div>
       </div>
-      <div class="chatArea" >
+      <div class="chatArea">
         <ul class="messages"></ul>
       </div>
-    
-      <input class="inputMessage" placeholder="Type here..." value=Hi!>
+
+      <!-- Add id and name attributes to the input field -->
+      <input id="messageInput" name="messageInput" class="inputMessage" placeholder="Type here..." value="Hi!">
     </li>
     <li class="login page">
       <div class="form">
         <h3 class="title">What's your nickname?</h3>
-        <input class="usernameInput" type="text" maxlength="14" />
+
+        <!-- Add id and name attributes to the input field -->
+        <input id="usernameInput" name="usernameInput" class="usernameInput" type="text" maxlength="14" />
       </div>
     </li>
   </ul>
